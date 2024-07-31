@@ -1,0 +1,152 @@
+*{
+    margin: 0;  
+    padding: 0;
+    box-sizing: border-box;
+ }
+ 
+ body{
+ 
+     min-height: 100vh ;
+     display: flex;
+     align-items: center;
+     text-align: center;
+     justify-content: center;
+     padding: 20px;
+      background-image: url(/photo/1000_F_42143127_1OP5u72SW2iocinAPweWnbNhSuMWz5uq.jpg ); 
+ 
+ }
+ 
+ 
+ .container{
+ 
+     position: relative;
+     max-width: 700px;
+     width:100%;
+     background: aqua;
+     padding: 25px;
+     border-radius: 8px;
+       box-shadow:0 0 15px rgb(0, 110, 255) ;
+ 
+ }
+ 
+ .container h1{
+ 
+      color: blue;
+      font-size: 1.5rem ;
+      font-weight: 500;
+      text-align: center;
+ }
+ 
+ 
+ 
+ .container .form{
+ 
+     margin-top: 30px;
+ }
+ 
+ .form  .input-box{
+ 
+     width: 100%;
+     margin-top: 20px ;
+ 
+ }
+ 
+ .input-box label{
+ 
+     color: #333;
+     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+ }
+ 
+ 
+ .form .input-box input{
+ 
+     position: relative;
+     height: 50px;
+     width: 100%;
+     outline: none;
+     font-size: 1rem;
+     color: #707070; 
+     margin-top : 8px;
+     border: 1px solid #ddd;
+     border-radius: 6px;
+     padding : 0 15px  ;
+    
+ } 
+ 
+ 
+   
+ 
+          
+        
+ 
+  .form  :where(.gender-option,  .gender){ 
+ 
+     display: flex;
+      align-items: center;
+      column-gap: 50px;
+      text-align: center;
+      margin: auto;
+      padding: auto;
+      flex-wrap: wrap;
+ 
+    }
+ 
+ .form .gender{
+     column-gap: 5px ;
+     
+      
+ }
+ 
+ 
+ .form  :where(.gender input,  .gender label){ 
+         cursor: pointer;
+          
+ 
+ }
+ 
+ .form  :where(.gender-option,  .gender){ 
+            row-gap:15px ;
+            display: flex;
+        }
+ 
+ 
+ 
+ 
+   h3{
+     padding-left: 50px;
+   }
+ 
+ 
+ 
+ 
+            
+  .btn{ 
+     width: 100%;
+      height: 45px;
+     
+     background : #fff;
+     border: none;
+     border-radius: 20px;
+     outline: none;
+     box-shadow: 0 0 10px rgba(0, 0, 0, -1);
+     cursor: pointer;
+      font-size: 16px;
+      color: #fff;
+      font-weight: 600;
+       padding:  10px ;   
+       margin: 10px 0  ;
+ 
+ 
+ }   
+ 
+ 
+ .sign-btn{
+ 
+     background-color: #1c8adb;
+     width: 100%;
+     height: 35px;
+     padding:  10px ;   
+     margin: 10px 0  ;
+ 
+ }
+ 

@@ -1,0 +1,131 @@
+.profile-container {
+    max-width: 600px;
+     margin: 0 auto; 
+     padding: 20px; 
+  
+    background-color: #154ecb;
+    border-radius: 10px;
+     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  }
+  
+  .profile-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .profile-picture-container {
+    position: relative;
+    margin-right: 20px;
+  }
+  
+  .profile-picture {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+  }
+  
+  .change-picture-btn {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: #11349b;
+    color: #fff;
+    border: none;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    cursor: pointer;
+  }
+  
+   .profile-nam {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+  } 
+  .pren{
+    text-align: center;
+    color: #dddcdc;
+  }
+  
+  .profile-details .detail-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    border: none;
+   
+  }
+  
+  .profile-details .detail-item label {
+    width: 50px;
+   margin-left: 160px;
+    font-weight: bold;
+  }
+  
+  .profile-details input,
+  .profile-details textarea {
+    flex: 1;
+    padding: 6px 12px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+  }
+
+
+/* تخصيص مظهر حقول الإدخال باستخدام الحدود المنقطة */
+.profile-details input[type="text"],
+.profile-details input[type="email"],
+.profile-details input[type="tel"],
+.profile-details input[type="number"],
+.profile-details textarea {
+    padding: 5px 0;
+    border: none;
+    border-bottom: 1px dotted #25e0da; /* حدود منقطة */
+    font-size: 14px;
+    margin-bottom: 5px;
+   
+    width: 100%;
+    /* transition: border-color 0.3s ease-in-out; */
+    background-color: transparent; /* لتجنب خلفية بيضاء للحقول */
+}
+ 
+  .profile-actions {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+  }
+  
+  .edit-profile-btn,
+  .save-profile-btn,
+  .logout-btn {
+    background-color: #7ad3fc;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  .save-profile-btn {
+    background-color: #508acc;
+  }
+
+.profile-picture {
+    text-align: center;
+    /* margin-left: 30PX;
+    margin-bottom: 10PX;
+    width: 150PX;
+    height: 100PX;
+    border-radius: 10PX; */
+width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    animation: rotate 3s linear infinite; /* تحريك دائم للصورة */
+}
+
+.profile-picture img {
+    width: 100PX;
+    border-radius: 100PX;
+    transition: transform 0.3s ease-in-out; /* تأثير تحويل عند تحويل المؤشر */
+}
